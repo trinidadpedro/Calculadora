@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:visibility="visible"
+tools:context=".MainActivityCalculadora">
+
+<TextView
+    android:id="@+id/Etiqueta"
+    android:layout_marginBottom="14sp"
+    android:textSize="50sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/TableLayout" />
+
+<TableLayout
+    android:id="@+id/TableLayout"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:padding="2sp"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+            android:id="@+id/uno"
+            android:text="1"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/dos"
+            android:text="2"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+
+        <Button
+            android:id="@+id/tres"
+            android:text="3"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/Divicion"
+            android:text="/"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/cuatro"
+            android:text="4"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/cinco"
+            android:text="5"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/seis"
+            android:text="6"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/Multiplicacion"
+            android:text="*"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/siete"
+            android:text="7"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/ocho"
+            android:text="8"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/nueve"
+            android:text="9"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/Suma"
+            android:text="+"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/cero"
+            android:text="0"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/igual"
+            android:text="="
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/Resta"
+            android:text="-"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+        <Button
+            android:id="@+id/Limpiar"
+            android:text="ac"
+            android:layout_margin="2sp"
+            android:textColor="#ffffff"
+            android:background="#bfe966"/>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>
